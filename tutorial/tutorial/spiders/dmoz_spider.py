@@ -1,4 +1,6 @@
-class DmozSpider(object):
+from scrapy.spider import BaseSpider
+
+class DmozSpider(BaseSpider):
   name = "dmoz"
   allowed_domains = ["dmoz.org"]
   start_urls = [
