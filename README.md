@@ -17,3 +17,6 @@ $> workon scrapestat
 2) Go to $HOME/PyDevel/scrapestat/westcoastroasters and run the
 spider:
 $> scrapy crawl wcr
+
+3) If you want to export to json:
+$> scrapy crawl wcr -o top_selling_beans.json -t json
