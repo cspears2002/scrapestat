@@ -5,6 +5,6 @@
 
 from scrapy.item import Item, Field
 
-class WestcoastroastersItem(Item):
+class WestCoastRoastingItem(Item):
     bean_name = Field()
     price = Field()
