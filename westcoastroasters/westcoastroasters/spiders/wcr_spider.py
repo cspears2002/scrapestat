@@ -24,5 +24,3 @@ class WCRSpider(BaseSpider):
       item['price'] = price
       items.append(item)
     return items
-# top_sellers_names = sel.xpath('//div[@id="SideTopSellers"]/div[@class="BlockContent"]/ul/li/div[@class="ProductDetails"]/strong/a/text()').extract()
-# top_sllers_prices = sel.xpath('//div[@id="SideTopSellers"]/div[@class="BlockContent"]/ul/li/div[@class="ProductDetails"]/div[@class="ProductPriceRating"]/em/text()').extract()
